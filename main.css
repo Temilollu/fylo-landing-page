@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+  
+    color: white;
+     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+    margin: 1rem 1rem;
+      background-color: #202a3c;
+}
+.main-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.main-header img
+{
+width: 100px;
+}
+
+.main-nav ul
+{
+    display: flex;
+}
+
+.main-nav__li
+{
+margin: 0 0.5rem;
+list-style: none;
+color: white;
+}
+
+.intro-img
+{
+    width: 100%;
+}
+
+.main-section{
+    text-align: center;
+    font-size: 20px;
+}
+.main-section button{
+padding: 1rem 0;
+width: 100%;
+border-radius: 50px;
+  font-size: 20px;
+  background-color: hsl(176, 68%, 64%);
+  font-weight: bold;
+  border-style: none;
+  margin-bottom: 3rem;
+}
+
+
+.about-us div{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.about-us div p{
+    font-size: 20px;
+}
+
+.second-illustration{
+       font-size: 20px;
+}
+
+.second-illustration img{
+    width: 100%;
+    margin: 5rem 0;
+  
+}
+
+.second-illustration div{
+    display: inline-block;
+      display: flex ;
+      align-items: center;
+     
+}
+
+.second-illustration div img{
+    width: 20px;
+    margin: 0;
+     margin-left: 1rem;
+}
+.people-main-div{
+    margin: 2rem 0;
+    padding: 1rem 1rem;
+    font-size: 20px;
+    background: #202a3c;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.people > div{
+    margin-top: 0.5rem;
+    padding-top: 0;
+}
+.people-main-div div{
+    display: flex;
+    align-items: center;
+    background: #202a3c;
+}
+
+.people-main-div div img{
+ width: 50px;
+ border-radius: 50%;
+ margin-right: 0.5rem;
+}
+
+.form-section{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 20px;
+    background-color: #202a3c;
+    padding: 2rem;
+}
+
+.form-section input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    border-style: none;
+    margin-bottom: 1rem;
+}
+
+.form-section button{
+padding: 1rem 0;
+width: 100%;
+border-radius: 50px;
+  font-size: 20px;
+  background-color: hsl(176, 68%, 64%);
+  font-weight: bold;
+  border-style: none;
+  margin-bottom: 3rem;
+}
+footer{
+    margin-top: 2rem;
+}
+
+.contact-div{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.contact-div img{
+    margin-right: 1rem;
+}
+footer ul{
+     margin-left: 0;
+    padding-left: 0;
+}
+
+footer  li{
+    list-style: none;
+    font-size: 25px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-media img{
+   margin: 1rem;
+   
+}
+@media(min-width : 750px){
+    body{
+    margin: 1rem 0;
+}
+.main-header{
+    margin: 1rem 1rem;
+}
+   .main-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .main-section button{
+       width: 200px;
+   }
+   .main-section-content{
+       width: 500px;
+   }
+   article{
+       display: flex;
+       justify-content: space-evenly;
+   }
+   article div{
+       width: 400px;
+   }
+   .second-illustration{
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+   }
+   .second-illustration > img{
+    width: 500px;
+   }
+   .second-illustration section{
+       width: 500px;
+   }
+   .people{
+       display: flex;
+       justify-content: space-evenly;
+   }
+   .people-main-div{
+       width: 400px;
+   }
+.quote{
+    position: relative;
+    bottom: -50px;
+    right: -80px;
+    z-index: -1;
+}
+.form-section{
+    max-width: 700px;
+    margin: 2rem auto;
+    background-color: hsl(217, 28%, 15%);
+    box-shadow:  1px 1px 1px rgba(0, 0, 0, 0.5) ;
+    position: relative;
+    bottom: -100px;
+}
+.form-section div{
+    display: flex;
+    align-items: center;
+}
+.form-section div button{
+    padding: 0.8rem 1rem ;
+    margin-bottom: 1rem;
+}
+.form-section div input{
+    width: 450px;
+}
+.footer-logo{
+    margin-top: 5rem;
+}
+footer{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+.contact-div-location{
+    width: 300px;
+}
+.body-background{
+    background: url(images/bg-curvy-desktop.svg) no-repeat center center;
+    background-size: cover;
+ 
+}
+
+}
